@@ -1,7 +1,14 @@
 # Transfer-DenseSM-E
 This repository is a simple implementation of the Transfer-DenseSM-E
 
+
 ## Part I: Data preparation
+
+The preprocessing steps used in the paper is for 9_km grids, while these posted here are designed for points. The main reason of a simplified version includes: 
+- EASE 2.0 is not supported by GEE and thus images were first downloaded with a size of 13x13 km, allowing a reprojection to cover the corresponding 9km grid cell 
+- We export images to google drive first and download it from local in an app way, being too complex to be posted here.
+- The prepared samples_x can be direclty used in models, being more straightfoward.
+However, we are happy to share the codes for images
 
 ### In-situ soil moisture
 Ground soil moisture measurements are available at https://ismn.geo.tuwien.ac.at/en/.
