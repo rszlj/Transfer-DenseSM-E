@@ -15,7 +15,7 @@ The outputs include:
 ### SMAP data
 The SMAP data is available at https://nsidc.org/data/SPL3SMP. A pyhton script can be generated automatically for batch download
 
-Use Extract the SMAP soil moisture.ipynb to extract the soil moisutre over each station.
+Use Extract the Extract_SMAP_9km.ipynb to extract the soil moisutre over each station.
 
 ### Remote sensing data and Reanalysis weather data from Google Earth Engine (GEE)
 #### Setup
@@ -23,11 +23,8 @@ An google developer account is required to access the GEE
 
 The https://github.com/giswqs/geemap is suggested for the setup of GEE
 
-#### Sentinel-1, MODIS NDVI, ERA5-Land
-Use Extract GEE data.ipynb to download Sentinel-1, MODIS NDVI, ERA5-Land
-
-#### Time-invariant variables: Soil textures, Terrain features, landcover
-Use Extract static auxiliary data.ipynb to download time-invariant variables from GEE
+#### prepare the input variables using GEE
+Use Prepare_samples.ipynb to extract all the input variables listed in Table 2. 
 
 ## Part II: Train/Val 9 km models
 comming soon
