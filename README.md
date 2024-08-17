@@ -35,7 +35,7 @@ Use Prepare_samples.ipynb to extract all the input variables at either 9km or 50
 
 ## Part II: multi-scale domain adpation method (MSDA)
 
-The pretrained 9km models were in DenseSM_9km.zip, while the samples for CONUS is in samples.zip
+The pretrained 9km models were in DenseSM_9km.zip, while the samples for CONUS is in samples.zip https://doi.org/10.5281/zenodo.13336185
 
 The initial version of finetune (Zhu et al., 2024) was inlcuded in MSDA.
 
