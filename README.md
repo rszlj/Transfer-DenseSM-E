@@ -44,4 +44,5 @@ Use example.ipynb to run the MSDA.
 
 ## Reference
 Liujun Zhu, Junjie Dai, Yi Liu, Shanshui Yuan & Jeffrey P. Walker (2024) A cross-resolution transfer learning approach for soil moisture retrieval with limited training samples, Remote Sensing of Environment, 301:113944
+
 Liujun Zhu, Qi Cai, Junliang Jin, Shanshui Yuan, Xiaoji Shen & Jeffrey P. Walker (2025) Multi-Scale domain adaptation for high-resolution soil moisture retrieval from synthetic aperture radar in data-scarce regions, Journal of Hydrology, 657:133073
